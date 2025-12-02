@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Ejercicio1 {
 
-    // Método que busca y reemplaza texto
     public static String buscarYRemplazarTexto(String p1, String p2, String p3) {
         if (p1.contains(p2)) {
             return p1.replace(p2, p3);
